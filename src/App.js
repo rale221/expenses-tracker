@@ -11,7 +11,7 @@ function App() {
 		},
 		{
 			id: 'e2',
-			title: 'Toiltet Paper',
+			title: 'Toilet Paper',
 			amount: 94.67,
 			date: new Date(2021, 4, 15),
 		},
