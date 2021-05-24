@@ -8,8 +8,9 @@ function NewExpense(props) {
 			...enteredExpenseData,
 			id: Math.random().toString(),
 		};
-		props.onAddExpenes(expensesData);
+		props.onAddExpense(expenseData);
 	};
+
 	return (
 		<div className='new-expense'>
 			<ExpenseForm onSaveExpenseData={saveExpenseDataHandler} />
