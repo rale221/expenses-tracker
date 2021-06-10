@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
-import './ExpenseItem.css';
+import React from 'react';
+
 import ExpenseDate from './ExpenseDate';
 import Card from '../UI/Card';
+import './ExpenseItem.css';
 
-function Expenseitem(props) {
+const ExpenseItem = (props) => {
 	return (
 		<Card className='expense-item'>
 			<ExpenseDate date={props.date} />
@@ -13,6 +14,6 @@ function Expenseitem(props) {
 			</div>
 		</Card>
 	);
-}
+};
 
-export default Expenseitem;
+export default ExpenseItem;
